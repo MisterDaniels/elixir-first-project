@@ -1,7 +1,7 @@
 defmodule CommunityWeb.Schema do
     use Absinthe.Schema
 
-    alias CommunityWeb.NewResolver
+    alias CommunityWeb.NewsResolver
 
     object :link do
         field :id, non_null(:id)
